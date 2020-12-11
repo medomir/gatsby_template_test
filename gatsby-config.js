@@ -1,10 +1,10 @@
 require(`dotenv`).config({
   path: `.env`,
-})
+});
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Jodie - Gatsby Starter Portfolio`,
+    siteTitleAlt: `Feral - Gatsby Starter Portfolio`,
   },
   plugins: [
     {
@@ -58,4 +58,4 @@ module.exports = {
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify`,
   ],
-}
+};
